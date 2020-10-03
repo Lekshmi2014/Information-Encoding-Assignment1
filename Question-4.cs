@@ -127,7 +127,7 @@ namespace Demo1
             Console.WriteLine("Enter String:");
             string input = Console.ReadLine();
             string Base64val = Base64code.Base64Encode(input);
-            Console.WriteLine("Base64Encode value " + input + " = " + Base64val);
+            Console.WriteLine("Base64Encode value of" + input + " = " + Base64val);
         }
     }
 }

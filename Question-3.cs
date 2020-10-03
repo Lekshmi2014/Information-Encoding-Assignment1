@@ -348,7 +348,7 @@ namespace Demo1
         static void Main(string[] args)
         {
             HexadecimalConverter Hexadecimal = new HexadecimalConverter();
-            Console.WriteLine("Enter name:");
+            Console.WriteLine("Enter String:");
             string name = Console.ReadLine();
             string hexval = Hexadecimal.ConvertTo(name);
             Console.WriteLine("Hex value of " + name+ " = " +hexval);
